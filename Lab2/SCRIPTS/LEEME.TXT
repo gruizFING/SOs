@@ -1,0 +1,8 @@
+El script 'so2011_dev.sh' crea un archivo de tipo char device
+en el directorio /dev.
+
+El major number es 242, por lo que el módulo deberá ser cargado
+de la siguiente forma:
+
+$ insmod ./so2011.o major=242
+

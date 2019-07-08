@@ -1,0 +1,27 @@
+
+Los archivos contenidos en la jerarquía son:
+
+Biblioteca semSO
+----------------
+
+semSO/semSO.h (Definicion de funciones).
+
+
+Dispositivo so2011
+------------------
+
+so2011/so2011.c (Código fuente del módulo).
+so2011/so2011.h (Estructura para listar semáforos).
+so2011/Makefile (Archivo Makefile para compilar el módulo).
+
+Scripts
+-------
+
+scripts/so2011_dev.sh (Crea los archivos de dispositivo de caracteres en el directorio /dev).
+
+Listar estado de semáforos
+--------------------------
+
+listsem/listsem.c (Comando para ver el estado de los semáforos).
+
+

@@ -1,0 +1,5 @@
+Para cargar el módulo se debe ejecutar:
+
+$ insmod ./so2011.o major=242
+
+En este caso queda cargado con el "major number" igual a 242.

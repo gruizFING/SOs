@@ -1,0 +1,18 @@
+#include <semSO.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main() {
+
+  semSO_init();
+
+  semSO_P(10,1);
+    sleep(5);
+  semSO_V(10);
+
+  semSO_close();
+
+  return 0;
+}
+
